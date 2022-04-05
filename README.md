@@ -92,6 +92,4 @@ The purpose of this analysis was to use several techniques to train and evaluate
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-
 In the above models, we were able to calculate how well the models accurately predicted whether or not someone was a high risk loan applicant or a low risk loan applicant. The highest balanced accuracy came from the Easy Ensemble AdaBoost Classifier. If I was forced to choose a model, it would be that one; however, it has a very low precision level when it comes to predicting high risk loan applicants. With that low precision, we can determine that those we deem high risk are, in fact, high risk; however, there may be many more high risk applicants who are falsely determined to be low risk. Every one of these models had a low precision score for high risk, which leads me to not recommend any of these models for use in this case. 
